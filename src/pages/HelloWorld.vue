@@ -1,6 +1,6 @@
 <template>
     <Title>Hello</Title>
-    Feboot
+    {{name}}
 </template>
 
 <script>
