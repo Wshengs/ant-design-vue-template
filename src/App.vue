@@ -3,7 +3,7 @@
         <a-layout>
             <a-layout-header :style="{ position: 'fixed', zIndex: 1, width: '100%' }">
                 <div class="content">
-                    <div class="logo">Feboot</div>
+                    <div class="logo">{{name}}</div>
                     <a-menu
                         v-model:selectedKeys="selectedKeys"
                         theme="dark"
